@@ -1,0 +1,99 @@
+/* Color Theme - Amethyst /Violet/
+
+color - #5691dd
+bg-footer - #222222
+bot-footer - 
+/* 01 MAIN STYLES
+****************************************************************************************************/
+
+/**** Custom Background boxes ****/
+.truehost-boxed-wrapper{background-image: url("http://demo.vegatheme.com/truehost/wp-content/uploads/2015/06/p1.png");}
+
+/**** Custom color ****/
+a, #mainmenu li:hover > ul,
+.date-box .day,
+.comments_number,
+.slider_text h1,
+.id-color,
+.pricing-box h1,
+.title span, .tbox b,
+.feature-box:hover i.large,
+.widget li a:hover,
+.sidebar .widget > ul li a:hover,
+.acc_head:hover,
+.acc_active .acc_head,
+.call-to-action h3 b,
+.de_tab .de_nav li span.active,
+.search-form:before, h3.single-title{
+	color: #5691dd;
+}
+
+i.large,
+.feature-box-small-icon i,
+#mainmenu li li a:hover,
+.blog-list .date,
+.date-box .month,
+.blog-read .date,
+.slider-info .text1,
+#filters a.selected,
+div.overlay, span.overlay,
+#testimonial-full,
+.widget_tag_cloud li a,
+.btn-primary, #mainmenu a:hover, 
+.bg-id-color, .rectangle-bounce div, #wp-calendar tbody td#today,
+.bg-primary, .envor-domain-price{
+	background: #5691dd;
+} 
+.callbacks_nav,
+.form-submit #submit, .pricing-dark.pricing-box .price-row,
+.whmcs-widget input[type=submit], #bridge input[type=submit]
+ {
+  background-color: #5691dd;
+}
+.filters a:hover,
+.filters a.selected,
+.search-form #s:focus,
+#author:focus,
+#email:focus,
+#website:focus,
+#comment:focus{
+  border: 1px solid #5691dd;
+}
+.social-icon:hover{
+  background-color: #5691dd;
+  color: #fff;
+}
+footer{
+  background-color: #222222;
+}
+.footer, footer .widget_recent_post li a, footer a{
+  color: #cccccc;
+}
+#subheader{
+	background-image: url(https://www.movetechsolutions.com/wp-content/uploads/2016/05/bg-subheader.jpg);
+}
+
+
+/**** Custom Shop ****/
+.product_meta .posted_in a:hover {color: #5691dd;}
+.woocommerce .woocommerce-breadcrumb a:hover{color: #212121;}
+.woocommerce #respond input#submit,.woocommerce a.button,
+.woocommerce button.button,.woocommerce input.button{background-color: #5691dd;}
+.woocommerce p.stars a, .woocommerce ul.product_list_widget li span.amount,
+.cart_totals.dotted_cart_total table td strong, .woocommerce div.product p.price,.woocommerce div.product span.price,
+.woocommerce div.product p.price ins, .woocommerce div.product span.price ins, .woocommerce .star-rating span,
+.woocommerce .star-rating:before, .woocommerce ul.cart_list li a:hover,.woocommerce ul.product_list_widget li a:hover{color: #5691dd;}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .added_to_cart.wc-forward, .woocommerce span.onsale, .woocommerce-page span.onsale,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range{background-color:#5691dd;}
+p.product-title a:hover {color: #5691dd;text-decoration: none;}
+.woocommerce .quantity .plus:hover, .woocommerce .quantity .minus:hover, .woocommerce #content .quantity .plus:hover, 
+.woocommerce #content .quantity .minus:hover, .woocommerce-page .quantity .plus:hover, 
+.woocommerce-page .quantity .minus:hover, .woocommerce-page #content .quantity .plus:hover, 
+.woocommerce-page #content .quantity .minus:hover, .woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:focus,.woocommerce nav.woocommerce-pagination ul li a:hover {background: #5691dd;}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{background: #5691dd;}
+.woocommerce .woocommerce-message::before {color: #5691dd;}
+.woocommerce .woocommerce-message {
+  border-top-color: #5691dd;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {color: #5691dd;}
