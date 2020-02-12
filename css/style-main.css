@@ -1321,7 +1321,7 @@ section > .container-fluid {
   z-index: 99999;
 }
 .scrollToTop i {
-  color: #fff;
+  color: #ffbb38;
   font-size: 42px;
 }
 .scrollToTop:hover {
@@ -7034,5 +7034,6 @@ blockquote p {
   border-color: #eeeeee;
   color: #333333;
 }
+
 
 /*# sourceMappingURL=style-main.css.map */
