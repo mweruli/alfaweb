@@ -262,7 +262,7 @@
                 </ul>
               </li>
               <li class=""><a href="page-contact-style3.html">Contact us</a></li>
-              <li class=""><a href="#">10 YEARS MILESTONE</a></li>
+              <li class=""><a href="anniversary.html">10 YEARS MILESTONE</a></li>
             </ul>
             <ul class="pull-right flip hidden-sm hidden-xs">
               <li>
@@ -287,379 +287,62 @@
   
   <!-- Start main-content -->
   <div class="main-content">
-    <!-- Section: inner-header -->
-    <section class="inner-header inner-header divider parallax layer-overlay overlay-dark-7" data-bg-img="images/bg/bg27.png">
-      <div class="container pt-90 pb-50">
-        <!-- Section Content -->
-        <div class="section-content pt-100">
-          <div class="row"> 
-            <div class="col-md-8 col-md-offset-2 text-center">
-              <h2 class="text-white mt-20">Time And Attendance</h2>
-              <ol class="breadcrumb white text-center mt-10">
-                <li><a href="index-mp-layout3.html">Home</a></li>
-                <li><a href="#">solutions</a></li>
-                <li class="active">time and attendance</li>
-              </ol>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
- <section>
+
+<section>
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/alfabiz/book-a-demo" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+</section>
+    <section class="bg-theme-colored">
       <div class="container">
-      <div class="call-to-action text-center">
-          <h2>Manage time &amp; attendance the easy way with Alfatime.</h2>
-            <!-- popup modal click trigger -->
-            <a  href="request-demo.html"  class="btn btn-colored bg-theme-color-2 text-white font-14 btn-xl mr-10">BOOK YOUR DEMO TODAY!</a>
-
-            <!-- popup modal -->
-            <div id="promoModal1" class="modal-promo-box mfp-hide bg-img-cover" data-bg-img="images/bg/bg15.jpg">
-             
-              <div class="row">
-                <div class="reservation-second-step">
-                   <h3 class="mt-0 text-white">Enter Request Demo</h3>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name" required="" class="form-control">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input placeholder="Email" type="text" id="reservation_email" name="reservation_email" class="form-control" required="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input placeholder="Your Phone" type="text" id="reservation_phone" name="reservation_phone" class="form-control" required="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input placeholder="Your Address" type="text" id="reservation_address" name="reservation_address" class="form-control" required="">
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <textarea placeholder="Enter Message" rows="5" class="form-control required" name="form_message" aria-required="true"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-sm-12">
-                    <div class="form-group text-center mb-0 mt-20">
-                      <input name="form_botcheck" class="form-control" type="hidden" value="">
-                      <button type="submit" class="btn btn-colored btn-theme-colored btn-lg btn-flat border-left-theme-color-2-4px" data-loading-text="Please wait...">Submit Now</button>
-                    </div>
-                  </div>
-                </div>
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="mt-5 text-white">Subscribe &amp; <br><span class="text-theme-color-2">to our newsletter </h2>
+          </div>
+          <div class="col-md-6 col-md-offset-1">
+            
+            <!-- Mailchimp Subscription Form-->
+            <form id="mailchimp-subscription-form11" class="newsletter-form mt-20">
+              <label for="mce-EMAIL"></label>
+              <div class="input-group">
+                <input type="email" id="mce-EMAIL" data-height="45px" class="form-control input-lg" placeholder="Your Email" name="EMAIL" value="">
+                <span class="input-group-btn">
+                  <button type="submit" class="btn btn-colored btn-dark btn-lg m-0" data-height="45px">Subscribe</button>
+                </span>
               </div>
-              <!-- Mailchimp Subscription Form Validation-->
-              <script type="text/javascript">
-                $('#mailchimp-subscription-form').ajaxChimp({
-                    callback: mailChimpCallBack,
-                    url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-                });
+            </form> 
 
-                function mailChimpCallBack(resp) {
-                    // Hide any previous response text
-                    var $mailchimpform = $('#mailchimp-subscription-form'),
-                        $response = '';
-                    $mailchimpform.children(".alert").remove();
-                    if (resp.result === 'success') {
-                        $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                    } else if (resp.result === 'error') {
-                        $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                    }
-                    $mailchimpform.prepend($response);
-                }
-              </script>
+            <!-- Mailchimp Subscription Form Validation-->
+            <script type="text/javascript">
+              $('#mailchimp-subscription-form11').ajaxChimp({
+                  callback: mailChimpCallBack,
+                  url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
+              });
 
-              <a class="text-gray-lightgray" href="#" class="button" onClick="$.magnificPopup.close(); return false;">Don't Show me Again</a>
-            </div>
-
-            <!-- popup modal onLoad trigger -->
-            <div class="modal-on-load" data-target="#promoModal1"></div>
-       </div>
+              function mailChimpCallBack(resp) {
+                  // Hide any previous response text
+                  var $mailchimpform = $('#mailchimp-subscription-form11'),
+                      $response = '';
+                  $mailchimpform.children(".alert").remove();
+                  if (resp.result === 'success') {
+                      $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  } else if (resp.result === 'error') {
+                      $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  }
+                  $mailchimpform.prepend($response);
+              }
+            </script>
+            
+          </div>
+        </div> 
       </div>       
     </section>
-    </div>
-
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <img class="pull-left mr-15 thumbnail" src="images/bg/bg32.svg" alt="">
-            <p>Time and Attendance Management Software provides improved efficiency, accuracy and productivity to the resource management and HR process of organizations. This system has inbuilt Roster management and also tightly integrates with access control systems to provide employee attendance & overtime information and to generate late clock-in exceptions to their respective departments, HR and Payroll systems.
-
-
-<ul class="list theme-colored angle-double-right">
-<li>Check in/out </li>
-<li>Integrates with biometric devices</li>
-<li>Schedule shifts</li>
-<li>Define and manage breaks</li>
-</ul>
-</p>
-
-</div>
-</div>
-</div>
-</section>
-
-
-  <section>
-  <div class="container pb-0">
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="text-center">
-            <h2 class="title">Flexible user-based settings</h2>
-          </div>
-          <div class="text-center">
-            <p>See the specifics for each employee with flexible, user-based settings. Set shifts for each employee, map IDs to biometric devices, maintain employee attendance records or just manage your employee attendance.</p>
-          </div>
-        </div>
-      </div>
-      <div class="item bg-img-cover">
-        <img src="images/bg/bg33.png">
-      </div>
-    </div>
   </div>
-</section>
- <section>
-  <div class="container pb-0">
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-3">
-          <div class="text-center">
-            <h2 class="title">Define and manage shifts and breaks</h2>
-          </div>
-          <div class="text-center">
-            <p>Set different break times for different shifts; classify as payable or non-payable; configure as manual or automatic. Take complete control over shift scheduling and automate attendance regularization.</p>
-          </div>
-        </div>
-      </div>
-      <div class="item bg-img-cover">
-        <img src="images/bg/bg34.png">
-      </div>
-    </div>
-  </div>
-</section>
-
-
- <section class="pt-70">
-      <div class="container pt-20 pb-20">
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="horizontal-tab-centered">
-                <div class="panel-body">
-                  <div class="tab-content no-border">
-                    <div class="tab-pane fade active in" id="tab-20">
-                      <div class="row">
-                        <div class="col-sm-5"><img alt="" src="images/bg/bg29.jpg"></div>
-                        <div class="col-sm-7">
-                          <h4 class="mt-0 mb-30 line-bottom">Integrates with biometric devices</h4>
-                          <p>Alfatime is integrated with biometric devices to accurately track employee attendance hours and keep all data in one central place.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section>
-      <div class="container">
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-          <div class="row">
-            <div class="col-sm-7">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/bg/bg35.png" alt="" />
-                  </div>
-                  <div class="item">
-                    <img src="images/bg/bg36.png" alt="" />
-                  </div>
-                  <div class="item">
-                    <img src="images/bg/bg37.png" alt="" />
-                  </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-              </div>
-            </div>
-            <div class="col-sm-5">
-                <h2 class="heading-title">Different Reports</h2>
-                <p>Get graphical reports that will give you attendance summaries by day, by month or by forthy nights. See reports for individual employees, or for entire teams. Filters for custom date ranges, shifts, branch, and more, will help you drill down even deeper.</p>
-              </div>
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
-
-     
-
-<section >
-  <div class="container pb-0">
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="title">Other Key Features</h2>
-          
-
-<ul class="list">
-<li>Employee profile, shift management & rostering</li>
-<li>Employee / department shift calendar</li>
-<li>Track time-in and time-out of every personnel</li>
-<li>Overtime calculation and reporting</li>
-<li>Integrates with multiple access control systems & HR / Payroll systems</li>
-<li>Leave management</li>
-<li>Export data to payroll system</li>
-<li>Automatic sync</li>
-<li>Improved report filters & optimized data binding methods for faster reporting</li>
-</ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-     <section class="divider">
-      <div class="container">
-        <div class="row pt-30">
-          <div class="col-md-12">
-            <h3 class="line-bottom mt-0 mb-20">Interested in discussing?</h3>
-            <!-- Contact Form -->
-            <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
-
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="form-group">
-                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
-                  </div>
-                </div>
-                <div class="col-sm-12">
-                  <div class="form-group">
-                    <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
-                  </div>
-                </div>
-              </div>
-                
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                <button type="submit" class="btn btn-flat btn-theme-colored text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">Send your message</button>
-                <button type="reset" class="btn btn-flat btn-theme-colored text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
-              </div>
-            </form>
-
-            <!-- Contact Form Validation-->
-            <script type="text/javascript">
-              $("#contact_form").validate({
-                submitHandler: function(form) {
-                  var form_btn = $(form).find('button[type="submit"]');
-                  var form_result_div = '#form-result';
-                  $(form_result_div).remove();
-                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                  var form_btn_old_msg = form_btn.html();
-                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                  $(form).ajaxSubmit({
-                    dataType:  'json',
-                    success: function(data) {
-                      if( data.status == 'true' ) {
-                        $(form).find('.form-control').val('');
-                      }
-                      form_btn.prop('disabled', false).html(form_btn_old_msg);
-                      $(form_result_div).html(data.message).fadeIn('slow');
-                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                    }
-                  });
-                }
-              });
-            </script>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<section >
-  <div class="container pb-0">
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="text-center">
-            <h2 class="title">Our Happy Clients</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<section class="clients bg-light">
-      <div class="container pt-10 pb-0">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- Section: Clients -->
-            <div class="owl-carousel-6col clients-logo transparent text-center owl-nav-top" data-nav="true">
-              <div class="item"> <a href="#"><img src="images/clients/b1.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b2.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b3.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b4.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b5.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b6.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b3.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b4.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b5.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/clients/b6.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   <!-- end main-content -->
   
   <!-- Footer -->
- <footer id="footer" class="footer divider layer-overlay overlay-dark-8" data-bg-img="images/bg/bg25.jpg">
+  <footer id="footer" class="footer divider layer-overlay overlay-dark-8" data-bg-img="images/bg/bg25.jpg">
     <div class="container pt-70 pb-40">
       <div class="row border-bottom">
         <div class="col-sm-6 col-md-3">
